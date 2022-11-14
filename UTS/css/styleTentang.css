@@ -1,0 +1,207 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.Home1 {
+    background-image: url(img/logo1.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 200px;
+    height: 210px;
+    left: 20px;
+    top: 5px;
+    border: 1px solid #000;
+    border-radius:50px 0px 0px 0px;
+
+}
+
+.info {
+    position: absolute;
+    width: 200px;
+    height: 164px;
+    top: 230px;
+    left: 20px;
+    border: 1px solid #000;
+}
+
+.header1 {
+    position: absolute;
+    width: 192px;
+    height: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    font: poppins;
+    top: 210px;
+    left: 20px;
+    font-weight: bold;
+    background-color: deepskyblue;
+}
+
+.info ul li {
+    padding: 10px 5px;
+    border-bottom: 2px dotted deepskyblue;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.info a {
+	color: black;
+	text-decoration: none;
+  }
+  
+  .info a:visited {
+	  font: poppins;
+	  color: black;
+  }
+  
+  .info a:hover {
+	  color: deepskyblue;
+  }
+
+.main {
+	position: absolute;
+	width: 965px;
+	height: 30px;
+	left: 250px;
+	top: 20px;
+	background-color: deepskyblue;
+}
+
+.main ul li {
+	display: inline-block;
+    font-style: poppins;
+    padding: 5px;
+}
+
+.main a {
+	padding: 20px;
+	color: black;
+	text-decoration: none;
+  }
+  
+  .main a:visited {
+	  font: poppins;
+	  color: black;
+  }
+  
+  .main a:hover {
+	  color: white;
+  }
+
+  .hero {
+    position: absolute;
+    width: 965px;
+    height: 500px;
+    left: 250px;
+    top: 70px;
+  }
+
+  .hero h2 {
+    font-size: 30px;
+    font: poppins;
+    font-weight: bold;
+  }
+
+  .hero p {
+    font-size: 16px;
+    margin-top: 25px;
+    padding: 2px 20px;
+    line-height: 200%;
+    text-align: justify;
+  }
+
+  .sidebar {
+    position: absolute;
+    width: 965px;
+    height: 400px;
+    left: 250px;
+    top: 590px;
+  }
+
+  .sidebar h2 {
+    font-size: 30px;
+    font: poppins;
+    font-weight: bold;
+  }
+
+  .sidebar img {
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding-right: 10px;
+  }
+
+  .sidebar p {
+    margin-top: 20px;
+    font: poppins;
+    font-size: 16px;
+    margin-right: 10px;
+    text-align: justify;
+    line-height: 200%;
+  }
+
+  .footer {
+    width: 1135px;
+    background-color: deepskyblue;
+    padding: 40px;
+    position: absolute;
+    top: 1000px;
+    border-radius:60px 0px 0px 0px;
+}
+
+.footer .copy {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font: poppins;
+}
+
+.footer .copy2 {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    font: poppins;
+}
