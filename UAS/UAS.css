@@ -1,0 +1,42 @@
+.header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #6495ed;
+}
+
+.tables {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tables th {
+    background: #6495ed;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tables td {
+    border-bottom: 1px solid black;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none; 
+    text-align: center;
+    background: #6495ed;
+    display: block;
+    color: #ffffff;        
+    text-align: center;
+    padding: 14px 16px;
+}
+
+a:hover {
+    background-color: #6495ed;
+    color: black;
+}
+
